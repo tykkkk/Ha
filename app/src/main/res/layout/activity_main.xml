@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="50dp" android:layout_width="match_parent" android:text="时间" android:id="@+id/tvTime" android:layout_margin="50dp"/>
+
+    <TextView android:layout_height="50dp" android:layout_width="match_parent" android:text="条件" android:id="@+id/tvOptions" android:layout_margin="50dp" android:layout_below="@+id/tvTime"/>
+
+    <View android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/vMasker" android:background="#e0000000" android:visibility="gone"/>
+
+</RelativeLayout>
